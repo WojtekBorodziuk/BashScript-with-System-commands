@@ -15,10 +15,13 @@ The script automates the collection of critical system data, outputting it into 
 ## Usage
 ```bash
 1. Clone this repository to your target machine.
+
 2. Grant execution permissions to the script:
 chmod +x gather_info.sh
+
 3. Run the script (running as root or with sudo is recommended to capture complete data, such as iptables and root crontab)
 sudo ./gather_info.sh
+
 4. A report file will be generated in the current working directory in the format:
 report_<hostname>_<YYYYMMDD_HHMMSS>.txt
 ```
